@@ -5,7 +5,7 @@ body {
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
     width: 100%;
-    height: 420rem;
+
     margin: 0 0;
     /* font-family: "Space Grotesk"; */
 }
@@ -80,22 +80,20 @@ header {
     background-image: url("../Assets/Illustrations/Bathome1.png");
     width: 100%;
     height: 54rem;
-    position: absolute;
     background-repeat: no-repeat;
 }
 
 /* START NAV BAR */
 
 nav {
-    position: relative;
     top: 4rem;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 2rem;
 }
 
 .container-nav-elements {
-    position: relative;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -104,11 +102,11 @@ nav {
 }
 
 .logo-home {
-    position: relative;
+    /* position: relative; */
 }
 
 .text-home {
-    position: relative;
+    /* position: relative; */
     color: hsl(0 0% 100%);
     font-family: "Rajdhani";
     font-size: 2rem;
@@ -128,11 +126,12 @@ nav {
 /* START CONTAINER HEADER */
 
 .container {
-    position: relative;
+    /* position: relative; */
     top: 10rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5rem;
 }
 
 .intro {
@@ -207,21 +206,14 @@ nav {
 /*  START ARROW AFTER HEADER */
 
 .fleche-down {
-    position: relative;
     width: 5rem;
     margin-left: auto;
     margin-right: auto;
-    top: 27rem;
 }
 
 /*  END ARROW AFTER HEADER */
 
 /* START MAIN SECTION */
-
-main {
-    position: relative;
-    top: 25rem;
-}
 
 .bat-title1 {
     position: relative;
@@ -236,11 +228,10 @@ main {
 }
 
 .bat-cine {
-    position: relative;
-    top: 500px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 2rem;
 }
 
 .container-batman {
@@ -258,11 +249,10 @@ main {
 }
 
 .nemesis-section {
-    position: relative;
-    top: 550px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 4rem;
 }
 
 .bat-shuriken {
@@ -296,11 +286,10 @@ main {
 }
 
 .ally-section {
-    position: relative;
-    top: 550px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 2rem;
 }
 
 .ally-article {
@@ -320,24 +309,20 @@ main {
 }
 
 .justice-section {
-    position: relative;
-    top: 550px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-family: "Space Grotesk";
+    padding-top: 2rem;
 }
 
 .justice-pic {
-    position: relative;
-    width: 100%;
-    top: 37rem;
+    width: 80%;
     z-index: 2;
 }
 
 .multimedia {
-    position: relative;
-    top: 38rem;
+    padding-top: 4rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -354,15 +339,8 @@ main {
     position: relative;
     display: flex;
     justify-content: space-around;
+    padding-top: 4rem;
 }
-
-/* .container-left{
-
-} */
-
-/* .image-jacket {
-    
-} */
 
 .container-right {
     position: relative;
@@ -387,89 +365,60 @@ main {
 }
 
 .bande-annonce {
-    position: relative;
     display: flex;
     /* border: solid;
     border-color: aliceblue; */
     justify-content: space-around;
     width: 100%;
-    top: 5rem;
+    padding-top: 5rem;
     z-index: 2;
 }
 
 #the-video {
-    position: relative;
     width: 80%;
 }
 
 .contact {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    top: 45rem;
     width: 100%;
     height: 35rem;
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 2rem;
     background: linear-gradient(
         0.25turn,
         rgba(237, 222, 191, 0.4),
         rgba(25, 88, 125, 0.4)
     );
+    font-family: "Rajdhani";
 }
 
 .container-all-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .contact-title {
-    position: relative;
     display: flex;
     justify-content: center;
     font-family: "Rajdhani";
 }
 
 .formulaire {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    top: -3rem;
     width: 60%;
     height: 25rem;
     margin-left: auto;
     margin-right: auto;
     font-family: "Space Grotesk";
 }
-
-/* .email {
-    position: relative;
-    top: 2rem;
-}
-
-.newsletter {
-    position: relative;
-    top: 4rem;
-}
-
-.frequence {
-    position: relative;
-    top: 4rem;
-}
-
-.news-check {
-    position: relative;
-    top: 4rem;
-}
-
-.message {
-    position: relative;
-    top: 8rem;
-} */
 
 #news-check,
 #message,
@@ -481,8 +430,8 @@ main {
 }
 
 .submit {
-    position: relative;
-    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #submit {
@@ -496,20 +445,19 @@ main {
     border: none;
     padding: 1rem 2rem;
     font-weight: bold;
-    left: 50%;
+    /* left: 50%; */
 }
 
 .citation {
-    position: relative;
-    top: 55rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     /* font-family: ; */
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
 
 .container-quotes {
-    position: relative;
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -518,8 +466,8 @@ main {
 }
 
 .quote-1 {
-    position: relative;
-    top: -4rem;
+    /* position: relative;
+    top: -4rem; */
 }
 
 .container-all-center2 {
@@ -548,7 +496,6 @@ main {
 }
 
 .slider {
-    position: relative;
     display: flex;
     justify-content: space-around;
     width: 20rem;
@@ -557,7 +504,6 @@ main {
 }
 
 .empty {
-    position: relative;
     border: 0.1rem solid;
     border-radius: 50%;
     border-color: rgba(25, 88, 125, 0.4);
@@ -567,7 +513,6 @@ main {
 }
 
 .full {
-    position: relative;
     border: 0.1rem solid;
     border-radius: 50%;
     border-color: transparent;
@@ -577,13 +522,10 @@ main {
 }
 
 footer {
-    position: relative;
-    top: 70rem;
     margin-bottom: 5rem;
 }
 
 .WB {
-    position: relative;
     display: flex;
     width: 47rem;
     margin-left: auto;
