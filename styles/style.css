@@ -316,8 +316,12 @@ nav {
     padding-top: 2rem;
 }
 
+#the-justice {
+    margin-top: 4rem;
+}
+
 .justice-pic {
-    width: 80%;
+    width: 100%;
     z-index: 2;
 }
 
