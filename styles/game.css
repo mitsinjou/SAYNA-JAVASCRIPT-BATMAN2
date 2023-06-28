@@ -1,0 +1,218 @@
+/* GENERAL RULES */
+
+body {
+    position: relative;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 420rem;
+    margin: 0 0;
+    /* font-family: "Space Grotesk"; */
+}
+
+/* START SCROLL FIX AT ASIDE */
+
+aside {
+    position: fixed;
+    width: 6.5rem;
+    height: 18rem;
+    z-index: 3;
+    top: 15rem;
+    left: 88.2%;
+    z-index: 3;
+}
+
+#scroll-fixed {
+    display: flex;
+    height: inherit;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 3;
+}
+
+#social {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+    height: 8rem;
+}
+
+/* END SCROLL FIX AT ASIDE */
+
+/* START LINE ASIDE */
+
+#horizontal {
+    position: relative;
+    z-index: 1;
+    top: 12rem;
+    width: 84%;
+    height: 0.01rem;
+    background: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vertical-1 {
+    border-left: thick grey solid;
+    border-left-width: 0.01rem;
+    height: 100%;
+    left: 8%;
+    position: absolute;
+    z-index: 1;
+}
+
+#vertical-2 {
+    border-left: thick grey solid;
+    border-left-width: 0.01rem;
+    height: 100%;
+    right: 8%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* END LINE ASIDE */
+
+/* START HEADER SECTION */
+
+header {
+    position: relative;
+    background-image: url("../Assets/Illustrations/Batgame_1.png");
+    width: 100%;
+    height: 54rem;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+/* START NAV BAR */
+
+nav {
+    position: relative;
+    top: 4rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-nav-elements {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-home {
+    position: relative;
+}
+
+.text-home {
+    position: relative;
+    color: hsl(0 0% 100%);
+    font-family: "Rajdhani";
+    font-size: 2rem;
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+}
+
+.text-home a {
+    /* text-decoration: none; */
+    color: hsl(0 0% 100%);
+    font-weight: bold;
+}
+
+/* END NAV BAR */
+
+/* START CONTAINER HEADER SECTION*/
+
+.play-game {
+    position: absolute;
+    top: 25rem;
+    left: 15rem;
+    font-family: "Space Grotesk";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* END CONTAINER HEADER SECTION */
+
+/*  START ARROW AFTER HEADER */
+
+.fleche-down {
+    position: relative;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 27rem;
+}
+
+/*  END ARROW AFTER HEADER */
+
+/* START MAIN SECTION */
+
+/* END MAIN SECTION */
+
+footer {
+    position: relative;
+    top: 70rem;
+    margin-bottom: 5rem;
+}
+
+.WB {
+    position: relative;
+    display: flex;
+    width: 47rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.logos {
+    position: relative;
+    display: flex;
+    width: 20rem;
+    height: 1.8rem;
+    top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+/* ALL HOVER */
+
+#logo-bat-img:hover {
+    cursor: pointer;
+    filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+}
+
+aside img:hover {
+    cursor: pointer;
+    filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+}
+
+footer img:hover {
+    cursor: pointer;
+    filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+}
+
+/* END HOVER */
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+    /* styles phone*/
+}
+
+/* Styles pour les tablettes */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* styles tablette */
+}
+
+/* Styles pour les écrans plus larges */
+@media only screen and (min-width: 1025px) {
+    /* styles large screen */
+}
+/* END RESPOnSIVE */
