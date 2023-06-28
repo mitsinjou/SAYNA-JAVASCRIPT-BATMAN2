@@ -1,0 +1,639 @@
+/* GENERAL RULES */
+
+body {
+    position: relative;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 420rem;
+    margin: 0 0;
+    /* font-family: "Space Grotesk"; */
+}
+
+/* START SCROLL FIX AT ASIDE */
+
+aside {
+    position: fixed;
+    width: 6.5rem;
+    height: 18rem;
+    z-index: 3;
+    top: 15rem;
+    left: 88.2%;
+    z-index: 3;
+}
+
+#scroll-fixed {
+    display: flex;
+    height: inherit;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 3;
+}
+
+#social {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+    height: 8rem;
+}
+
+/* END SCROLL FIX AT ASIDE */
+
+/* START LINE ASIDE */
+
+#horizontal {
+    position: relative;
+    z-index: 1;
+    top: 12rem;
+    width: 84%;
+    height: 0.01rem;
+    background: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vertical-1 {
+    border-left: thick grey solid;
+    border-left-width: 0.01rem;
+    height: 100%;
+    left: 8%;
+    position: absolute;
+    z-index: 1;
+}
+
+#vertical-2 {
+    border-left: thick grey solid;
+    border-left-width: 0.01rem;
+    height: 100%;
+    right: 8%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* END LINE ASIDE */
+
+/* START HEADER SECTION */
+
+header {
+    background-image: url("../Assets/Illustrations/Bathome1.png");
+    width: 100%;
+    height: 54rem;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+/* START NAV BAR */
+
+nav {
+    position: relative;
+    top: 4rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-nav-elements {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-home {
+    position: relative;
+}
+
+.text-home {
+    position: relative;
+    color: hsl(0 0% 100%);
+    font-family: "Rajdhani";
+    font-size: 2rem;
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+}
+
+.text-home a {
+    /* text-decoration: none; */
+    color: hsl(0 0% 100%);
+    font-weight: bold;
+}
+
+/* AND NAV BAR */
+
+/* START CONTAINER HEADER */
+
+.container {
+    position: relative;
+    top: 10rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    color: hsl(0 0% 100%);
+    font-family: "Space Grotesk";
+    font-size: 1.1rem;
+    text-align: center;
+    width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.he-is-batman {
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Rajdhani";
+    font-size: 1.2rem;
+}
+
+.container-button {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    /* position: relative;
+    padding-top: 0.5rem; */
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(25, 88, 125, 0.4),
+        rgba(237, 222, 191, 0.4),
+        rgba(137, 0, 8, 0.6)
+    );
+    border: none;
+    color: white;
+    font-family: "Rajdhani";
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    opacity: 75%;
+    font-weight: bolder;
+}
+
+.adve {
+    color: white;
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(25, 88, 125, 0.4),
+        rgba(237, 222, 191, 0.4),
+        rgba(137, 0, 8, 0.6)
+    );
+    border: none;
+    font-family: "Rajdhani";
+    padding-left: 2rem;
+    padding-right: 2rem;
+    opacity: 75%;
+    font-weight: bolder;
+}
+
+/* END HEADER SECTION */
+
+/*  START ARROW AFTER HEADER */
+
+.fleche-down {
+    position: relative;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 27rem;
+}
+
+/*  END ARROW AFTER HEADER */
+
+/* START MAIN SECTION */
+
+main {
+    position: relative;
+    top: 25rem;
+}
+
+.bat-title1 {
+    position: relative;
+    top: 10px;
+    color: hsl(0 0% 100%);
+    font-family: "Rajdhani";
+}
+
+.perso-batman {
+    color: hsl(0 0% 100%);
+    font-family: "Space Grotesk";
+}
+
+.bat-cine {
+    position: relative;
+    top: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-batman {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Space Grotesk";
+}
+
+.actor {
+    text-align: center;
+}
+
+.nemesis-section {
+    position: relative;
+    top: 550px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bat-shuriken {
+    position: relative;
+    width: 10%;
+    top: -6rem;
+    left: 4rem;
+}
+
+.nemesis-article {
+    position: relative;
+    top: -5rem;
+    font-family: "Space Grotesk";
+}
+
+.container-nemesis {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Space Grotesk";
+}
+
+.batman-side {
+    position: relative;
+    top: -20rem;
+    left: 47.5rem;
+    z-index: 2;
+}
+
+.ally-section {
+    position: relative;
+    top: 550px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ally-article {
+    position: relative;
+    top: -20rem;
+    font-family: "Space Grotesk";
+}
+
+.container-ally {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Space Grotesk";
+}
+
+.justice-section {
+    position: relative;
+    top: 550px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Space Grotesk";
+}
+
+.justice-pic {
+    position: relative;
+    width: 100%;
+    top: 37rem;
+    z-index: 2;
+}
+
+.multimedia {
+    position: relative;
+    top: 38rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Rajdhani";
+}
+
+.button-left,
+.button-right {
+    position: relative;
+    top: 7rem;
+}
+
+.container-classement {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .container-left{
+
+} */
+
+/* .image-jacket {
+    
+} */
+
+.container-right {
+    position: relative;
+    left: 1.2rem;
+    width: 28rem;
+    height: 2rem;
+}
+
+.container-all-center {
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 16.66rem;
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(25, 88, 125, 0.4)
+    );
+    font-size: 0.9rem;
+    font-family: "Space Grotesk";
+    border-radius: 3%;
+}
+
+.bande-annonce {
+    position: relative;
+    display: flex;
+    /* border: solid;
+    border-color: aliceblue; */
+    justify-content: space-around;
+    width: 100%;
+    top: 5rem;
+    z-index: 2;
+}
+
+#the-video {
+    position: relative;
+    width: 80%;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 45rem;
+    width: 100%;
+    height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(25, 88, 125, 0.4)
+    );
+}
+
+.container-all-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.contact-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: "Rajdhani";
+}
+
+.formulaire {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: -3rem;
+    width: 60%;
+    height: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Space Grotesk";
+}
+
+/* .email {
+    position: relative;
+    top: 2rem;
+}
+
+.newsletter {
+    position: relative;
+    top: 4rem;
+}
+
+.frequence {
+    position: relative;
+    top: 4rem;
+}
+
+.news-check {
+    position: relative;
+    top: 4rem;
+}
+
+.message {
+    position: relative;
+    top: 8rem;
+} */
+
+#news-check,
+#message,
+#email,
+#newsletter {
+    width: 80%;
+    background-color: transparent;
+    border: none;
+}
+
+.submit {
+    position: relative;
+    left: 50%;
+}
+
+#submit {
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(137, 0, 8, 0.6)
+    );
+    color: white;
+    font-family: "Rajdhani";
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    left: 50%;
+}
+
+.citation {
+    position: relative;
+    top: 55rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* font-family: ; */
+}
+
+.container-quotes {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-1 {
+    position: relative;
+    top: -4rem;
+}
+
+.container-all-center2 {
+    position: relative;
+}
+
+.container-joker-quote {
+    position: relative;
+}
+
+.the-quote {
+    position: relative;
+    text-align: center;
+    font-family: "Rajdhani";
+}
+
+.source-quote {
+    position: relative;
+    text-align: center;
+    font-family: "Space Grotesk";
+}
+
+.quote-2 {
+    position: relative;
+    top: 4rem;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.empty {
+    position: relative;
+    border: 0.1rem solid;
+    border-radius: 50%;
+    border-color: rgba(25, 88, 125, 0.4);
+    background: transparent;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.full {
+    position: relative;
+    border: 0.1rem solid;
+    border-radius: 50%;
+    border-color: transparent;
+    background: rgba(25, 88, 125, 0.4);
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+footer {
+    position: relative;
+    top: 70rem;
+    margin-bottom: 5rem;
+}
+
+.WB {
+    position: relative;
+    display: flex;
+    width: 47rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.logos {
+    position: relative;
+    display: flex;
+    width: 20rem;
+    height: 1.8rem;
+    top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+/* ALL HOVER */
+
+#logo-bat-img:hover {
+    cursor: pointer;
+    filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+}
+
+aside img:hover {
+    cursor: pointer;
+    filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+}
+
+footer img:hover {
+    cursor: pointer;
+    filter: brightness(75%) sepia(80) saturate(20) hue-rotate(5deg);
+}
+
+/* END HOVER */
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+    /* styles phone*/
+}
+
+/* Styles pour les tablettes */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* styles tablette */
+}
+
+/* Styles pour les écrans plus larges */
+@media only screen and (min-width: 1025px) {
+    /* styles large screen */
+}
+/* END RESPOSIVE */
