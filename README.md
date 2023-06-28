@@ -14,13 +14,12 @@ Here are the trailer, the actors in the film, a form contact
 
 [![JS](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
 
-(last update for the main branch: Tuesday, May 23, 2023)
+## MY-TO-DO-LISTE
 
--   Improve the CSS positionning: Like removing all the "display: relative" in a section or div that are not necessary.
+(last update for the main branch Wednesday, June 28, 2023)
+
 -   **The responsive**: I coded this website on a laptop ,
 -   **The form** is not really as expected in the figma file (css to improve)
--   css \*\*" :hover " animations on image cards of actors
--   All backend
 
 ## MY-BRANCHES
 
