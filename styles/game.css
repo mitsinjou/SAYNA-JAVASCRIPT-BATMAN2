@@ -160,7 +160,6 @@ nav {
 /* START MAIN SECTION */
 main {
     width: 80%;
-    height: 50rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -182,14 +181,40 @@ h2 {
     font-size: 2rem;
 }
 
+.the-knight-img {
+    display: flex;
+    justify-content: center;
+}
+
+.container-in-knight-img {
+    width: fit-content;
+}
+
+/* .the-img {
+} */
+
+.my-quizz {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#the-game {
+    margin-top: 5rem;
+}
+
+#button {
+    margin-top: 2rem;
+}
+
 /* END MAIN SECTION */
 
 footer {
+    margin-top: 10rem;
     margin-bottom: 5rem;
 }
 
 .WB {
-    position: relative;
     display: flex;
     width: 47rem;
     margin-left: auto;
@@ -246,7 +271,7 @@ footer img:hover {
         height: 100vh;
     }
     header {
-        background-image: url("../Assets/Illustrations/Bathome1.png");
+        background-image: url("../Assets/Illustrations/Batgame_1.png");
         width: 100%;
         height: 54rem;
         background-repeat: repeat-x;
