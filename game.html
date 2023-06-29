@@ -11,6 +11,7 @@
             type="image/x-icon"
         />
         <link rel="stylesheet" href="./styles/game.css" />
+        <link rel="stylesheet" href="quizz.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -102,66 +103,34 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="button-quizz">
-                    <button id="start-quizz">Demarrer le quizz</button>
-                </div> -->
-                <div class="my-quizz">
-                    <section id="the-game">
-                        <div class="container-game">
-                            <div class="container-num-quizz">
-                                <span id="current-num-quizz">1</span>
-                                <span> / </span>
-                                <span>10</span>
-                            </div>
-
-                            <div id="decor">
-                                <p id="question">
-                                    Quel est l'autre nom de l'Homme-Mystere?
-                                </p>
-                                <form id="reponse">
-                                    <label id="reponse1"
-                                        ><input
-                                            type="radio"
-                                            name="reponse"
-                                        />Saphir</label
-                                    >
-                                    <label id="reponse2"
-                                        ><input
-                                            type="radio"
-                                            name="reponse"
-                                        />Sphinx</label
-                                    >
-                                    <label id="reponse3"
-                                        ><input
-                                            type="radio"
-                                            name="reponse"
-                                        />Joker</label
-                                    >
-                                </form>
-                                <img
-                                    src="Assets/Illustrations/Game/Batgame_6.png"
-                                    alt="img1"
-                                    id="i1"
-                                />
-                                <img
-                                    src="Assets/Illustrations/Game/Batgame_5.png"
-                                    alt="img2"
-                                    id="i2"
-                                />
-                            </div>
+                <div class="quiz-container">
+                    <h1>Quizz</h1>
+                    <button id="start-btn">Démarrer le quizz</button>
+                    <div id="question-container" style="display: none">
+                        <p class="question"></p>
+                        <div class="options">
+                            <label
+                                ><input type="radio" name="answer" value="1" />
+                                Option 1</label
+                            ><br />
+                            <label
+                                ><input type="radio" name="answer" value="2" />
+                                Option 2</label
+                            ><br />
+                            <label
+                                ><input type="radio" name="answer" value="3" />
+                                Option 3</label
+                            ><br />
                         </div>
-                    </section>
-
-                    <section id="button">
-                        <div class="container">
-                            <input
-                                type="button"
-                                value="Demarrer le quiz"
-                                id="valid"
-                            />
-                        </div>
-                    </section>
+                        <button id="next-btn">Question suivante</button>
+                    </div>
+                    <div id="result-container" style="display: none">
+                        <h2>Votre résultat:</h2>
+                        <p id="result-text"></p>
+                    </div>
                 </div>
+
+                <script src="script.js"></script>
             </div>
         </main>
 

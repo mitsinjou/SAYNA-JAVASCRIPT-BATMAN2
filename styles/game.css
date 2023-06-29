@@ -194,17 +194,35 @@ h2 {
 } */
 
 .my-quizz {
-    width: fit-content;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
+.container-all-quizz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 #the-game {
     margin-top: 5rem;
+    width: 100%;
 }
 
 #button {
-    margin-top: 2rem;
+    margin-top: 5rem;
+}
+
+.container-in-button {
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.the-button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* END MAIN SECTION */
