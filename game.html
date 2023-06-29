@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,14 +10,13 @@
             href="./Assets/Logos/logohome.png"
             type="image/x-icon"
         />
-        <link rel="stylesheet" href="./styles/game.css" />
-        <link rel="stylesheet" href="quizz.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Rajdhani&family=Space+Grotesk:wght@300&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="./styles/game.css" />
     </head>
     <aside>
         <div id="scroll-fixed">
@@ -44,7 +43,6 @@
         <div id="horizontal"></div>
         <div id="vertical-1"></div>
         <div id="vertical-2"></div>
-
         <header>
             <nav>
                 <div class="container-nav-elements">
@@ -76,7 +74,6 @@
                 </div>
             </div>
         </header>
-
         <section class="fleche">
             <div class="fleche-down">
                 <div id="fleche-down">
@@ -87,27 +84,30 @@
                 </div>
             </div>
         </section>
-
         <main>
-            <div class="question">
+            <div class="enter-the-game">
                 <div class="DoYouKnow">
                     <h2>CONNAISSEZ VOUS BIEN LE CHEVALIER NOIR ?</h2>
                 </div>
-                <div class="the-knight-img">
-                    <div class="container-in-knight-img">
-                        <div class="the-img">
-                            <img
-                                src="./Assets/Illustrations/Batgame_2.png"
-                                alt="the-knight-img"
-                            />
-                        </div>
+            </div>
+            <div class="the-knight-img">
+                <div class="container-in-knight-img">
+                    <div class="the-img">
+                        <img
+                            src="./Assets/Illustrations/Batgame_2.png"
+                            alt="the-knight-img"
+                        />
                     </div>
                 </div>
-                <div class="quiz-container">
-                    <h1>Quizz</h1>
-                    <button id="start-btn">Démarrer le quizz</button>
-                    <div id="question-container" style="display: none">
-                        <p class="question"></p>
+            </div>
+
+            <!-- START QUIZZ -->
+
+            <div class="quiz-container">
+                <button id="start-btn">Démarrer le quizz</button>
+                <div id="question-container" style="display: none">
+                    <p class="question"></p>
+                    <div class="options-box">
                         <div class="options">
                             <label
                                 ><input type="radio" name="answer" value="1" />
@@ -122,18 +122,15 @@
                                 Option 3</label
                             ><br />
                         </div>
-                        <button id="next-btn">Question suivante</button>
                     </div>
-                    <div id="result-container" style="display: none">
-                        <h2>Votre résultat:</h2>
-                        <p id="result-text"></p>
-                    </div>
+                    <button id="next-btn">Question suivante</button>
                 </div>
-
-                <script src="script.js"></script>
+                <div id="result-container" style="display: none">
+                    <h2>Votre résultat:</h2>
+                    <p id="result-text"></p>
+                </div>
             </div>
         </main>
-
         <footer>
             <div class="WB">
                 <div>
@@ -162,5 +159,6 @@
                 <img src="./Assets/Logos/icon_tw.png" alt="logo-twitter" />
             </div>
         </footer>
+        <script src="./script/game.js"></script>
     </body>
 </html>

@@ -1,10 +1,10 @@
 /* GENERAL RULES */
 
 body {
-    position: relative;
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
     width: 100%;
+
     margin: 0 0;
     /* font-family: "Space Grotesk"; */
 }
@@ -85,15 +85,14 @@ header {
 /* START NAV BAR */
 
 nav {
-    position: relative;
     top: 4rem;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 2rem;
 }
 
 .container-nav-elements {
-    position: relative;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -101,12 +100,8 @@ nav {
     justify-content: space-between;
 }
 
-.logo-home {
-    position: relative;
-}
-
 .text-home {
-    position: relative;
+    /* position: relative; */
     color: hsl(0 0% 100%);
     font-family: "Rajdhani";
     font-size: 2rem;
@@ -116,14 +111,23 @@ nav {
 }
 
 .text-home a {
-    /* text-decoration: none; */
+    text-decoration: none;
     color: hsl(0 0% 100%);
     font-weight: bold;
 }
 
-/* END NAV BAR */
+/* AND NAV BAR */
 
-/* START CONTAINER HEADER SECTION*/
+/* START CONTAINER HEADER */
+
+.container {
+    /* position: relative; */
+    top: 10rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+}
 
 .play-game {
     position: absolute;
@@ -134,23 +138,12 @@ nav {
     font-weight: bold;
 }
 
-/* END CONTAINER HEADER SECTION */
+/* END HEADER SECTION */
 
 /*  START ARROW AFTER HEADER */
 
-.fleche {
-    width: auto;
-}
-
 .fleche-down {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    top: 50rem;
-}
-
-#fleche-down {
-    width: fit-content;
+    width: 5rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -158,78 +151,93 @@ nav {
 /*  END ARROW AFTER HEADER */
 
 /* START MAIN SECTION */
-main {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.question {
-    width: 100%;
+main {
+    z-index: 0;
 }
 
 .DoYouKnow {
+    margin-top: 3rem;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5rem;
-}
-
-h2 {
-    font-family: "Rajdhani";
-    color: white;
-    font-size: 2rem;
 }
 
 .the-knight-img {
-    display: flex;
-    justify-content: center;
+    margin-top: 3rem;
 }
 
 .container-in-knight-img {
     width: fit-content;
+    margin: auto;
 }
 
-/* .the-img {
-} */
+/* BOUTON START */
 
-.my-quizz {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+#start-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-.container-all-quizz {
+/* CONTAINER QUESTION */
+
+#question-container {
+    margin-top: 20px;
+}
+
+/* THE QUESTION */
+.question {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* OPTIONS */
+
+.options {
+    width: fit-content;
+    margin-top: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: justify;
+    margin: auto;
 }
 
-#the-game {
-    margin-top: 5rem;
-    width: 100%;
+/* BOUTION NEXT */
+
+#next-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-#button {
-    margin-top: 5rem;
+/* CONTAINER RESULTAT */
+
+#result-container {
+    text-align: center;
+    margin-top: 20px;
 }
 
-.container-in-button {
-    margin-left: auto;
-    margin-bottom: auto;
-}
+/* RETURN */
 
-.the-button {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+#result-text {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
 }
-
 /* END MAIN SECTION */
+
+/* START FOOTER SECTION */
 
 footer {
     margin-top: 10rem;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 
 .WB {
@@ -249,6 +257,15 @@ footer {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+}
+
+/* END FOOTER SECTION */
+
+/*CONTAINER QUIZZ */
+
+.quiz-container {
+    margin-top: 15rem;
+    text-align: center;
 }
 
 /* ALL HOVER */
@@ -281,18 +298,4 @@ footer img:hover {
     /* styles tablette */
 }
 
-@media only screen and (min-width: 1025px) {
-    /* styles large screen */
-    .html {
-        margin-right: auto;
-        margin-left: auto;
-        height: 100vh;
-    }
-    header {
-        background-image: url("../Assets/Illustrations/Batgame_1.png");
-        width: 100%;
-        height: 54rem;
-        background-repeat: repeat-x;
-    }
-}
-/* END RESPOnSIVE */
+/* END RESPOSIVE */
